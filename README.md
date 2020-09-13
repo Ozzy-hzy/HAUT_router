@@ -9,3 +9,7 @@ Newifi d2
 # -⚡刷写固件
 breed下刷入编译的bin固件
 # -设置登录脚本
+利用winscp将登陆脚本上传至\root目录，更改学号密码
+# -启动脚本
+python autologin.py
+
