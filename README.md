@@ -11,7 +11,7 @@ Newifi d2
 breed下刷入编译的bin固件
 # -设置登录脚本
 脚本用的是这位学长的https://github.com/ehaut/autologin-srun3k
-利用winscp将登陆脚本上传至`\root`目录，更改学号密码
+利用winscp将登陆脚本上传至`/root`目录，更改学号密码
 # -启动脚本
 `nohup python3 autologin.py >/dev/null 2>&1 &`
 # -👾enjoy！！
