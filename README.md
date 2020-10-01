@@ -15,7 +15,7 @@ breed下刷入编译的bin固件
 # -启动脚本
 `nohup python3 autologin.py >/dev/null 2>&1 &`
 # -完善
-我用这个脚本每天早上起来会断，需要手动ssh在连接，因此加入`crontab`定时任务,顺便开机启动
+我用这个脚本每天早上起来会断，需要手动ssh在连接，因此加入`crontab`定时任务,~顺便开机启动~
 
 添加每小时运行一次脚本`0 * * * * sleep 60 && nohup python3 autologin.py >/dev/null 2>&1 &`
 
