@@ -19,6 +19,6 @@ breed下刷入编译的bin固件
 
 添加每小时运行一次脚本`0 * * * * sleep 60 && nohup python3 autologin.py >/dev/null 2>&1 &`
 
-开机启动`@reboot sleep 60 && nohup python3 autologin.py >/dev/null 2>&1 &`
+~开机启动`@reboot sleep 60 && nohup python3 autologin.py >/dev/null 2>&1 &`~  @reboot在openwrt内无法使用此段作废
 # -👾Enjoy！！
 
